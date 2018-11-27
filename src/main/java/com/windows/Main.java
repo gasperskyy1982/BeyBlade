@@ -34,6 +34,8 @@ public class Main extends Application {
 	private boolean isSound = false;
 	private String player1Name;
 	private String player2Name;
+	private Label player1NameLabel;
+	private Label player2NameLabel;
 
 	private ImageView fafnir = new ImageView("/images/fafnir.jpg");
 	private ImageView horusood = new ImageView("/images/horusood.jpg");
@@ -118,8 +120,12 @@ public class Main extends Application {
 
 		Label player1 = new Label("Player 1");
 		Label player2 = new Label("Player 2");
-		Label player1NameLabel = new Label("Name: ");
-		Label player2NameLabel = new Label("Name: ");
+		
+		if (player1Name == null) player1NameLabel = new Label("Name: ");
+		else player1NameLabel.setText("Name: " + player1Name);
+		if (player2Name == null) player2NameLabel = new Label("Name: ");
+		else player2NameLabel.setText("Name: " + player2Name);
+		
 		TextField player1NameField = new TextField();
 		TextField player2NameField = new TextField();
 		Label player1Bey = new Label("Bey: ");
