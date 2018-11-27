@@ -1,0 +1,37 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.root {
+	
+	-fx-background-image: url("/images/winner.png");
+	-fx-background-repeat: no-repeat ;
+	-fx-background-size: 100% 100%;
+}
+
+
+#winNameLabel {
+	-fx-font-size: 40px;
+	-fx-font-weight: bold;
+}
+
+#winBeyLabel {
+	-fx-font-size: 30px;
+	-fx-font-weight: bold;
+	-fx-font-family: Arial;
+
+}
+
+#again {
+	
+	-fx-font-size: 20px;
+	-fx-font-family: Garamond;
+	-fx-font-weight: bold;
+	-fx-min-width: 150px;
+}
+
+#exit {
+	
+	-fx-font-size: 20px;
+	-fx-font-family: Garamond;
+	-fx-font-weight: bold;
+	-fx-min-width: 150px;
+}

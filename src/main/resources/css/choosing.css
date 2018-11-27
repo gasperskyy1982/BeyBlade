@@ -1,0 +1,26 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.root {
+	-fx-background-image: url("/images/Choosing.jpg");
+	-fx-background-repeat: no-repeat ;
+	-fx-background-size: 100% 100%;
+}
+
+
+#playerBox {
+	-fx-font-size: 25px;
+	-fx-font-weight: bold;
+}
+
+#playerNameBox {
+	-fx-font-size: 20px;
+	-fx-font-style: italic ; 
+}
+
+#choose {
+	
+	-fx-font-size: 40px;
+	-fx-font-family: Garamond;
+	
+	
+}

@@ -1,0 +1,55 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+#fields {
+	-fx-border-width: 1px;
+	-fx-background-image: url("/images/GameBackground.png");
+	-fx-background-repeat: no-repeat ;
+	-fx-background-size: 350.0px 350.0px;
+	-fx-background-insets: 150.0px,125.0px,150.0px,125.0px;
+}
+
+
+.button {
+	
+	-fx-font-size: 20px;
+	-fx-font-family: Garamond;
+	-fx-font-weight: bold;
+	-fx-min-width: 150px;
+}
+
+
+#bey1Label {
+	-fx-font-size: 20px;
+	-fx-font-weight: bold;
+}
+
+
+#bey2Label {
+	-fx-font-size: 20px;
+	-fx-font-weight: bold;
+}
+
+#balancePlayer1 {
+	-fx-font-size: 20px;
+	-fx-font-style: italic;
+}
+
+#balancePlayer2 {
+	-fx-font-size: 20px;
+	-fx-font-style: italic;
+
+}
+
+
+	
+#player1Label {
+	-fx-font-size: 30px;
+	-fx-font-weight: bold;
+
+}
+
+#player2Label {
+	-fx-font-size: 30px;
+	-fx-font-weight: bold;
+
+}
